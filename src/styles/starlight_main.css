@@ -1,10 +1,10 @@
 /* Dark mode colors. */
 :root {
-    --primary-button-hover: #ff801f;
+    --primary-button-hover: #f7f7f7;
     --backdrop-color: #272727cc;
-    --sl-color-accent: #ff801f;
-    --sl-color-accent-high: #ffa057;
-    --sl-color-accent-low: #562800;
+    --sl-color-accent: #d3d3d3;
+    --sl-color-accent-high: #f7f7f7;
+    --sl-color-accent-low: #cccccc;
     --sl-color-black: #181818;
     --sl-color-gray-1: #eee;
     --sl-color-gray-2: #c2c2c2;

@@ -29,6 +29,14 @@ export default {
         500: "#e14d0b",
         600: "#ea580c",
       }, // Primary colors, used mainly for links, buttons and svg icons
+      navy: {
+        600: "#0b1524",
+        500: "#232c3a",
+        400: "#2f3e4f",
+        300: "#4b5563",
+        200: "#6b7280",
+        100: "#a1a6b2",
+      }, // Navy color
       red: colors.red, // Used for bookmark icon
       zinc: colors.zinc, // Used mainly for box-shadow
     },
