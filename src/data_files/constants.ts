@@ -2,11 +2,11 @@ import ogImageSrc from "@images/social.png";
 
 export const SITE = {
   title: "Lex Fortis Honduras",
-  tagline: "Top-quality Hardware Tools",
-  description: "ScrewFast offers top-tier hardware tools and expert construction services to meet all your project needs. Start exploring and contact our sales team for superior quality and reliability.",
-  description_short: "ScrewFast offers top-tier hardware tools and expert construction services to meet all your project needs.",
-  url: "https://screwfast.uk",
-  author: "Emil Gulamov",
+  tagline: "Lex Fortis: Su aliado legal en La Ceiba, Honduras",
+  description: "En Lex Fortis, nos preocupamos por nuestros clientes y nos esforzamos por obtener los mejores resultados posibles. Le invitamos a contactarnos hoy mismo para programar una consulta gratuita",
+  description_short: "Lex Fortis: Asistencia legal completa en La Ceiba, Honduras Contacte a nuestros abogados hoy mismo para una consulta.",
+  url: "https://lex-fortis.hn",
+  author: "Carlos Enrique Castillo",
 };
 
 export const SEO = {
@@ -33,7 +33,7 @@ export const OG = {
   locale: "en_US",
   type: "website",
   url: SITE.url,
-  title: `${SITE.title}: : Hardware Tools & Construction Services`,
-  description: "Equip your projects with ScrewFast's top-quality hardware tools and expert construction services. Trusted by industry leaders, ScrewFast offers simplicity, affordability, and reliability. Experience the difference with user-centric design and cutting-edge tools. Start exploring now!",
+  title: `${SITE.title}: : Su aliado legal en La Ceiba, Honduras`,
+  description: "En Lex Fortis, nos preocupamos por nuestros clientes y nos esforzamos por obtener los mejores resultados posibles. Le invitamos a contactarnos hoy mismo para programar una consulta gratuita",
   image: ogImageSrc,
 };
