@@ -4,14 +4,12 @@ import MainLayout from "@/layouts/MainLayout.astro";
 import HeroSection from "@components/sections/landing/HeroSection.astro";
 import FeaturesGeneral from "@components/sections/features/FeaturesGeneral.astro";
 import FeaturesNavs from "@components/sections/features/FeaturesNavs.astro";
-import TestimonialsSection from "@components/sections/testimonials/TestimonialsSection.astro";
 import FAQ from "@components/sections/FAQ.astro";
 import AnnouncementBanner from "@components/ui/banners/AnnouncementBanner.astro";
 import heroImage from "@images/hero-img.png";
 import faqs from "@data/faqs.json";
 import features from "@data/features.json";
 import featureImage from "@images/features-image.png";
-import construction from "@images/construction-image.avif";
 import tools from "@images/automated-tools.avif";
 import dashboard from "@images/dashboard-image.avif";
 ---
@@ -36,13 +34,13 @@ import dashboard from "@images/dashboard-image.avif";
   />
 
   <FeaturesNavs
-    title=`Customize <span class="text-white-500 dark:text-white-400">ScrewFast</span>'s offerings to perfectly suit your hardware and construction needs.`
+    title=`¡Encuentra nuestras nuevas oficinas!`
     tabs={[
       {
-        heading: "Cutting-Edge Tools",
+        heading: "¿Donde estamos ubicados?",
         content:
-          "Empower your projects with ScrewFast's cutting-edge tools. Experience enhanced efficiency in construction management with our sophisticated automated solutions.",
-        svg: "tools",
+          "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam gravida posuere lectus, vel pharetra urna consequat vitae. Quisque iaculis scelerisque ipsum et lacinia. Pellentesque a metus tincidunt, ultricies ipsum sed, sodales risus. Nulla facilisi. Mauris a massa id orci tincidunt congue",
+        svg: "mapPin",
         src: tools,
         alt: "Yellow and black heavy equipment on brown grass field",
         first: true,
@@ -55,14 +53,6 @@ import dashboard from "@images/dashboard-image.avif";
         src: dashboard,
         alt: "A screenshot or graphic representation of the intuitive dashboard",
         second: true,
-      },
-      {
-        heading: "Robust Features",
-        content:
-          "Minimize complexity, maximize productivity. ScrewFast's robust features are engineered to streamline your construction process, delivering results that stand out for their excellence.",
-        svg: "house",
-        src: construction,
-        alt: "Gray metal building frame near tower crane during daytime",
       },
     ]}
   />

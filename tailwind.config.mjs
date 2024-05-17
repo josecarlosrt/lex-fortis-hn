@@ -17,7 +17,7 @@ export default {
       neutral: colors.neutral,  // Used mainly for text color
       yellow: {
         50: "#fefce8",
-        100: "#fef9c3",
+        100: "#f2d16b",
         400: "#facc15",
         500: "#eab308",
       }, // Accent colors, used mainly for star color, heading and buttons
