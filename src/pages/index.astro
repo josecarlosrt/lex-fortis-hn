@@ -11,6 +11,8 @@ import faqs from "@data/faqs.json";
 import features from "@data/features.json";
 import featureImage from "@images/features-image.png";
 import tools from "@images/automated-tools.avif";
+import splitOne from "@images/split-one.png";
+import splitTwo from "@images/split-two.png";
 import dashboard from "@images/dashboard-image.avif";
 ---
 
@@ -41,7 +43,7 @@ import dashboard from "@images/dashboard-image.avif";
         content:
           "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam gravida posuere lectus, vel pharetra urna consequat vitae. Quisque iaculis scelerisque ipsum et lacinia. Pellentesque a metus tincidunt, ultricies ipsum sed, sodales risus.",
         svg: "mapPin",
-        src: tools,
+        src: splitOne,
         alt: "Yellow and black heavy equipment on brown grass field",
         first: true,
       },
@@ -50,7 +52,7 @@ import dashboard from "@images/dashboard-image.avif";
         content:
           "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam gravida posuere lectus, vel pharetra urna consequat vitae. Quisque iaculis scelerisque ipsum et lacinia. Pellentesque a metus tincidunt, ultricies ipsum sed, sodales risus.",
         svg: "dashboard",
-        src: dashboard,
+        src: splitTwo,
         alt: "A screenshot or graphic representation of the intuitive dashboard",
         second: true,
       },
@@ -58,5 +60,5 @@ import dashboard from "@images/dashboard-image.avif";
   />
 
 
-  <FAQ title="Frequently<br />asked questions" faqs={faqs} />
+  <FAQ title="Preguntas<br />Frecuentes" faqs={faqs} />
 </MainLayout>

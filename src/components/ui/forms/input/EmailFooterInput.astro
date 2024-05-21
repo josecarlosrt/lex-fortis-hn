@@ -1,7 +1,7 @@
 ---
 const {
   label = "Search",
-  title = Astro.currentLocale === "fr" ? "S'abonner" : "Subscribe",
+  title = "Subscribete",
   id = "footer-input",
 } = Astro.props;
 
@@ -11,7 +11,7 @@ interface Props {
   id?: string;
 }
 
-const placeholder = Astro.currentLocale === "fr" ? "Entrez votre email" : "Enter your email";
+const placeholder = "Ingresa Tu Correo";
 ---
 
 <div
@@ -28,7 +28,7 @@ const placeholder = Astro.currentLocale === "fr" ? "Entrez votre email" : "Enter
     />
   </div>
   <a
-    class="inline-flex w-full items-center justify-center gap-x-2 whitespace-nowrap rounded-lg border border-transparent bg-yellow-400 p-3 text-sm font-bold text-navy-500 outline-none ring-zinc-500 transition duration-300 hover:bg-yellow-400 focus-visible:ring disabled:pointer-events-none disabled:opacity-50 dark:ring-zinc-200 dark:focus:outline-none dark:focus:ring-1 sm:w-auto"
+    class="inline-flex w-full items-center justify-center gap-x-2 whitespace-nowrap rounded-lg border border-transparent bg-yellow-400 p-3 text-sm font-bold text-navy-500 outline-none ring-zinc-500 transition duration-300 hover:bg-yellow-100 focus-visible:ring disabled:pointer-events-none disabled:opacity-50 dark:ring-zinc-200 dark:focus:outline-none dark:focus:ring-1 sm:w-auto"
     href="#"
   >
     {title}
