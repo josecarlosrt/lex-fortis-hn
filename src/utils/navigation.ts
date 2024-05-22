@@ -18,7 +18,7 @@ const footerLinks = [
     section: "Contacto",
     links: [
       { name: "Correo", url: "#" },
-      { name: "Llamanos", url: "/blog" },
+      { name: "Llamanos", url: "#" },
       { name: "Facebook", url: "#" },
     ],
   },
