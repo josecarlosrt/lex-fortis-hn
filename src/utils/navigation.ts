@@ -17,8 +17,8 @@ const footerLinks = [
   {
     section: "Contacto",
     links: [
-      { name: "Correo", url: "#" },
-      { name: "Llamanos", url: "#" },
+      { name: "Correo", url: "mailto: Lexfortislaw@gmail.com" },
+      { name: "Llamanos", url: "https://wa.link/e0722j" },
       { name: "Facebook", url: "#" },
     ],
   },
