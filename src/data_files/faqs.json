@@ -1,24 +1,24 @@
 {
-  "subTitle": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam consectetur mi non ornare viverra",
+  "subTitle": "comprendemos que tiene preguntas sobre nuestros servicios legales, nuestro equipo y nuestro enfoque. Por ello, hemos creado esta sección de Preguntas Frecuentes para brindarle información útil y responder a las preguntas que pueda tener",
   "faqs": [
     {
-      "question": "Pregunta Numero 1?",
+      "question": "¿En qué áreas del derecho se especializa Lex Fortis?",
       "answer": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam consectetur mi non ornare viverra. Etiam non velit varius, tempor lectus eget, varius elit"
     },
     {
-      "question": "Pregunta Numero 2?",
+      "question": "¿Quiénes son los abogados de Lex Fortis?",
       "answer": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam consectetur mi non ornare viverra. Etiam non velit varius, tempor lectus eget, varius elit"
     },
     {
-      "question": "Pregunta Numero 3?",
+      "question": "¿Qué puedo esperar durante el proceso legal?",
       "answer": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam consectetur mi non ornare viverra. Etiam non velit varius, tempor lectus eget, varius elit"
     },
     {
-      "question": "Pregunta Numero 4?",
+      "question": "¿Cómo cobran honorarios?",
       "answer": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam consectetur mi non ornare viverra. Etiam non velit varius, tempor lectus eget, varius elit"
     },
     {
-      "question": "Pregunta Numero 5?",
+      "question": "¿Cómo puedo contactarlos si tengo una emergencia legal?",
       "answer": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam consectetur mi non ornare viverra. Etiam non velit varius, tempor lectus eget, varius elit"
     }
   ]
